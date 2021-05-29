@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <title>Website dynamic color changer</title>
+  </head>
+  <body>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg">
+                    <div class="panel-box" id="panel-box">
+                        <div class="cntl-btn" onclick="controlBtn()">
+                            <i class="fa fa-cog fa-spin"></i>
+                        </div>
+                        <div class="color-box">
+                            <span class="red-clr"></span>
+                            <span class="green-clr"></span>
+                            <span class="black-clr"></span>
+                            <span class="blue-clr"></span>
+                            <span class="yellow-clr"></span>
+                            <span class="pink-clr"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="header_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="mt-5">Dolor sit amet consectetur</h2>
+			        <p class="mt-5 lead">Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Dolor et adipisci doloremque quibusdam est veritatis provident nisi architecto similique! Tempora ea possimus, Dolor et adipisci doloremque quibusdam est veritatis provident nisi architecto similique! Tempora ea possimus, dolorem officiis officia quod provident atque recusandae, blanditiis. Tempora ea possimus.</p>
+                    <p class="cng-txt lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto repellat autem, corrupti numquam dolorum corporis illo blanditiis quam cum deleniti id adipisci saepe non consequuntur voluptatem distinctio ducimus porro vitae?</p>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="text-center lead">About this Man</h2>
+			        <img src="img/rose.JPG" alt="" class="img-thumbnail float-right">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Dolor sit amet consectetur</h2>
+			        <p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Dolor et adipisci doloremque quibusdam est veritatis provident nisi architecto similique! Tempora ea possimus, Dolor et adipisci doloremque quibusdam est veritatis provident nisi architecto similique! Tempora ea possimus, dolorem officiis officia quod provident atque recusandae, blanditiis. Tempora ea possimus, dolorem officiis officia quod provident atque recusandae, blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto repellat autem, corrupti numquam dolorum corporis illo blanditiis quam cum deleniti id adipisci saepe non consequuntur voluptatem distinctio ducimus porro vitae?dolorem officiis officia quod provident atque recusandae, blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto repellat autem, corrupti numquam dolorum corporis illo blanditiis quam cum deleniti id adipisci saepe non consequuntur voluptatem distinctio ducimus porro vitae?</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="display-3 text-center">This text will change as you click the color button</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	<script type="text/javascript">
+		function controlBtn() {
+			document.getElementById('panel-box').classList.toggle('controlbtnactive');
+		}
+	</script>
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  </body>
+</html>

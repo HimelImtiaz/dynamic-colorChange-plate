@@ -1,0 +1,123 @@
+:root{
+	--primrycol : #d1d1d1;
+	--bgcolor : #f6f6f6;
+}
+
+body{
+	margin: 0;
+	font-family: sans-serif, serif;
+	line-height: 1.5;
+}
+.panel-box{
+	position: fixed;
+	top: 188px;
+	left: -140px;
+	height: 100px;
+	width: 140px;
+	background: #D9D7D7;
+	transition: .5s;
+}
+.cntl-btn{
+	position: absolute;
+	top: 0;
+	left: 100%;
+	background: #575757;
+	padding: 5px 10px;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 0 7px 7px 0;
+	cursor: pointer;
+}
+#panel-box.controlbtnactive{
+	left: 0;
+}
+.color-box{
+	padding: 10px;
+}
+.color-box span{
+	width: 30px;
+	height: 30px;
+	margin: 5px;
+	float: left;
+	cursor: pointer;
+}
+.red-clr{
+	background: red;
+}
+.green-clr{
+	background: green;
+}
+.black-clr{
+	background: #8A2BE2;
+}
+.yellow-clr{
+	background: yellow;
+}
+.blue-clr{
+	background: blue;
+}
+.pink-clr{
+	background: pink;
+}
+p{
+	color: var(--primryco);
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+.header_area,
+.about_area{
+	padding: 50px 0;
+}
+
+.header_area h2,
+.about_area h2{
+	font-size: 32px;
+}
+.about_area{
+	background-color: var(--bgcolor);
+}
+
+.red-clr-bar .header_area h2,
+.red-clr-bar .header_area h3,
+.red-clr-bar .header_area .cng-txt,
+.red-clr-bar .about_area h2{
+	color: red;
+    transition: .5s;
+}
+.green-clr-bar .header_area h2,
+.green-clr-bar .header_area h3,
+.green-clr-bar .header_area .cng-txt,
+.green-clr-bar .about_area h2{
+	color: green;
+    transition: .5s;
+}
+.black-clr-bar .header_area h2,
+.black-clr-bar .header_area h3,
+.black-clr-bar .header_area .cng-txt,
+.black-clr-bar .about_area h2{
+    color: blueviolet;
+    transition: .5s;
+}
+.yellow-clr-bar .header_area h2,
+.yellow-clr-bar .header_area h3,
+.yellow-clr-bar .header_area .cng-txt,
+.yellow-clr-bar .about_area h2{
+	color: yellow;
+    transition: .5s;
+}
+.blue-clr-bar .header_area h2,
+.blue-clr-bar .header_area h3,
+.blue-clr-bar .header_area .cng-txt,
+.blue-clr-bar .about_area h2{
+	color: blue;
+    transition: .5s;
+}
+.pink-clr-bar .header_area h2,
+.pink-clr-bar .header_area h3,
+.pink-clr-bar .header_area .cng-txt,
+.pink-clr-bar .about_area h2{
+	color: pink;
+    transition: .5s;
+}
